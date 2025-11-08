@@ -1,0 +1,5 @@
+{
+  "name": "Copy of BookWorld",
+  "description": "BookWorld is a modern web application for discovering, tracking, and rating books, inspired by AniList. Users can search for books, add them to personal lists like 'Reading' or 'Completed', and view detailed information for each title.",
+  "requestFramePermissions": []
+}

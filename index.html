@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookWorld</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Dark mode scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1e293b; /* slate-800 */
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #475569; /* slate-600 */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #38bdf8; /* sky-400 */
+    }
+
+    /* Custom thin scrollbar for carousels */
+    .scrollbar-thin {
+      scrollbar-width: thin;
+      scrollbar-color: #475569 #1e293b; /* thumb track dark */
+    }
+  </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.2.0",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "express": "https://aistudiocdn.com/express@^5.1.0",
+      "dotenv": "https://aistudiocdn.com/dotenv@^17.2.3",
+      "cors": "https://aistudiocdn.com/cors@^2.8.5",
+      "morgan": "https://aistudiocdn.com/morgan@^1.10.1",
+      "mongoose": "https://aistudiocdn.com/mongoose@^8.19.2",
+      "jsonwebtoken": "https://aistudiocdn.com/jsonwebtoken@^9.0.2",
+      "bcryptjs": "https://aistudiocdn.com/bcryptjs@^3.0.2"
+    }
+  }
+  </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="antialiased bg-slate-900">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
